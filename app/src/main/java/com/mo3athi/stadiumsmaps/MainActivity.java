@@ -89,34 +89,6 @@ public class MainActivity extends AppCompatActivity {
       recyclerView.setAdapter(adapter);
 
     }
-
-//    arStadiums = new ArrayList<>();
-//
-//    arStadiums.add(new StadiumModel("ستاد الملك عبد الله الثاني", "8:00 - 3:00",
-//        "15 Jd", "31.928057", "35.953257"));
-//
-//    arStadiums.add(new StadiumModel("ستاد عمان الدولي", "10:00 - 5:00",
-//        "20 Jd", "31.9851496", "35.9006254"));
-//
-//    arStadiums.add(new StadiumModel("ستاد الحسن", "9:00 - 2:00",
-//        "5 Jd", "32.537694", "35.860264"));
-//
-//    arStadiums.add(new StadiumModel("ستاد الأمير محمد", "10:00 - 5:00",
-//        "10 Jd", "32.099945", "36.112919"));
-//
-//    arStadiums.add(new StadiumModel("ستاد البتراء", "10:00 - 5:00",
-//        "8 Jd", "31.981737", "35.903236"));
-//
-//    arStadiums.add(new StadiumModel("ملعب الامير علي", "10:00 - 5:00",
-//        "12 Jd", "32.330303", "36.242244"));
-//
-//    recyclerView = findViewById(R.id.recyclerView);
-//
-//    recyclerView.setHasFixedSize(true);
-//    recyclerView.setLayoutManager(new LinearLayoutManager(this));
-//    adapter = new MyAdapter(arStadiums);
-//    recyclerView.setAdapter(adapter);
-
   }
 
   @Override
@@ -152,7 +124,6 @@ public class MainActivity extends AppCompatActivity {
         if (adapter != null) {
           adapter.getFilter().filter(newText);
         }
-
         return true;
       }
     });
